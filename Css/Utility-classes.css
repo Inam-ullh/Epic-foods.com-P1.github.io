@@ -1,0 +1,50 @@
+/* ---- Utility Classes ---- */
+.h1-primary{
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    /* padding: 10px; */
+}
+.h-secondary{
+    font-family: 'Lora', serif;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+.btn{
+    padding: 6px 17px;
+    border: 2px solid whitesmoke;
+    background-color: brown;
+    margin: 17px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.btn2{
+    padding: 4px 10px;
+    border: 3px solid brown;
+    background-color: none;
+    color: brown;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto 0px auto;
+}
+.center{
+    text-align: center;
+}
+.m1{
+    margin: 9px 0px;
+}
+.font-family{
+    font-family: 'Lora', serif;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto 0px auto;
+}

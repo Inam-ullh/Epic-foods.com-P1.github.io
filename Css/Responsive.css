@@ -1,0 +1,145 @@
+@media screen and (max-width: 943px){ 
+
+/* ---- Section --- Home-----  */
+#home{
+    overflow: hidden;
+    height: 230px;
+    padding: 3px 30px;
+}
+#home::before{
+    height: 350px;
+    opacity: 100%;
+}
+.btn{
+    padding: 4px 12px;
+    margin: 15px;
+    font-size: 0.7rem;
+}
+.btn2{
+    padding: 4px 9px;
+    border: 2px solid brown;
+    background-color: none;
+    color: brown;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto 0px auto;
+}
+
+/* ---- Services --- Section -----  */
+#services{
+    margin: 10px 10px;
+}
+#services .box{
+    padding: 25px 8px;
+    margin: 3px 6px;
+}
+#services .box img{
+    height: 80px;
+    }
+
+/* ---- Client --- Section ----  */
+.client-items{
+    padding: 20px;
+}
+#clients img{
+    height: 70px;
+}
+/* ---- Footer ---- */
+
+
+}
+@media screen and (max-width: 690px){ 
+    /* ====Nav bar==== */
+    #navbar{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    #navbar::before{
+        z-index: 1;
+        opacity: 100%;
+    }
+    #logo{
+        z-index: 2;
+    }
+    
+    #navbar ul{
+     padding-bottom: 10px;
+     z-index: 2;
+    }
+    #navbar ul li{
+        font-size: 0.9rem;
+        } 
+        #navbar ul li a{
+            padding: 3px 10px;
+        }   
+    /* ---- Section --- Home-----  */
+    #home{
+        overflow: hidden;
+        height: 200px;
+        padding: 20px 5px 20px 5px;
+        margin-bottom: 30px;
+    }
+    #home::before{
+        height: 280px;
+    }
+    .h1-primary{
+        font-family: 'Lora', serif;
+        font-size:2rem;
+    }
+    #home p{
+        font-size: 0.6rem;
+    }
+    .btn{
+        padding: 4px 12px;
+        margin: 15px;
+        font-size: 0.7rem;
+        border-radius: 7px;
+    }
+    /* ---- Services --- Section -----  */
+    #services{
+        margin: 10px 20px;
+    flex-direction: column;
+    }
+    #services .box{
+        padding: 25px 8px;
+        margin: 3px 6px;
+    
+    }
+    #services .box img{
+        height: 80px;
+        margin: auto;
+        display: block;
+        }
+    
+    /* ---- Client --- Section ----  */
+    .client-items{
+        padding: 10px;
+    }
+    #clients img{
+        height: 70px;
+    }
+    #client-section{
+        height: 240px;
+        }
+        #client-section h1 {
+            margin: 20px 0px;
+        }
+        #client-section::before{
+            height: 240px;
+        }
+        #clients{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .m1{
+            margin: 20px 0px 9px 0px;
+        }
+    }

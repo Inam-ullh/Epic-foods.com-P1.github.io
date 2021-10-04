@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+/* =====Css Reset===== */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* ====Nav bar==== */
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* ====Logo --- Nav bar====  */
+#logo{
+    margin: 1px 23px 0px 30px;
+}
+#logo img{
+height: 40px;
+margin:5px 20px 2px 20px ;
+}
+/* ====Nav-items --- Nav bar==== */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+list-style: none;
+font-size:0.9rem;
+}
+#navbar ul li a{
+    color: rgb(255, 255, 255);
+display: block;
+padding: 3px 20px;
+text-decoration: none;
+border-radius: 20px;
+font-family: 'Bree Serif', serif;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: #fff;
+    font-family: 'Bree Serif', serif;
+}
+/* ---- Home --- Section----- */
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    padding: 3px 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+#home::before{
+    content: "";
+    background: url(../bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 490px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.90;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* ---- Services --- Section ----- */
+#services{
+    margin: 20px 30px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 28px 15px;
+    margin: 3px 10px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+
+}
+#services .box img{
+height: 110px;
+margin: auto;
+display: block;
+}
+#services .box p{
+    font-size:15px ;
+}
+
+/* ---- Client --- Section ---- */
+
+#client-section{
+height: 280px;
+}
+#client-section h1 {
+    margin: 20px 0px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.jpg');
+    height: 280px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-items{
+    padding: 28px;
+}
+#clients img{
+    height: 100px;
+}
+
+/* ---- Contact --- Section ---- */
+#contact{
+position: relative;
+}
+#contact::before{
+content: "";
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+opacity: 0.4;
+background: url(../contact.jpg) no-repeat center center/cover;
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+#contact-box input{
+    border-radius: 0px 100px ;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+font-size: 1.3rem;
+}
+
+/* ---- Footer ---- */
+footer{
+    font-family: 'Lora', serif;
+    color: white;
+    background-color: black;
+    padding: 20px ;
+}
+
