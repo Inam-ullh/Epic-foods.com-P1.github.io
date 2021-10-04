@@ -29,7 +29,9 @@
     align-items: center;
     margin: 5px auto 0px auto;
 }
-
+.h1-br{
+        display:block;
+    }
 /* ---- Services --- Section -----  */
 #services{
     margin: 10px 10px;
@@ -90,10 +92,7 @@
     }
     .h1-primary{
         font-family: 'Lora', serif;
-        font-size:1.8rem;
-    }
-    .h1-br{
-        display:block;
+        font-size:2rem;
     }
     #home p{
         font-size: 0.6rem;
