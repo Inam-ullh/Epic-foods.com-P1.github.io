@@ -77,6 +77,8 @@ font-family: 'Bree Serif', serif;
     text-align: center;
     
 }
+.h1-br{
+    display:none;
 #home p{
     color: white;
     text-align: center;
