@@ -92,6 +92,9 @@
         font-family: 'Lora', serif;
         font-size:1.8rem;
     }
+    .h1-br{
+        display:block;
+    }
     #home p{
         font-size: 0.6rem;
     }
